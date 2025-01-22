@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .option {
+      margin: 10px 0;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h3>YouTube Auto-Pause Settings</h3>
+  <div class="option">
+    <label>
+      <input type="checkbox" id="autoPause" checked>
+      Auto-pause when switching tabs
+    </label>
+  </div>
+  <div class="option">
+    <label>
+      <input type="checkbox" id="autoPlay" checked>
+      Auto-play when returning
+    </label>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
